@@ -62,6 +62,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'ckeditor', '~> 4.1'
+gem 'carrierwave'
 
 gem 'simple_form'
 gem 'bootstrap-sass', '~> 3.3'
