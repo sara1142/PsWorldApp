@@ -3,3 +3,17 @@
   <h5 class="text-center"><%= @post.created_at.strftime('%b %d, %Y') %></h5>
   <div><%= raw @post.body %></div>
 </div>
+
+  <div class="container">
+  <%= render @post.comments %>
+  <% if current_admin %>
+   <%#= show the user and comment content from comment.html  %>
+        
+        <div class="comment-form">
+            <hr />
+            <h3 class="subtitle is-3">Leave a comment</h3>
+             <%= render 'comments/form' %>
+        </div>
+
+    <% end %>    
+    </div>

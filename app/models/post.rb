@@ -3,4 +3,7 @@ class Post < ActiveRecord::Base
     validates :title, presence: true, length: {maximum: 140}
     #This validates presence of body
     validates :body, presence: true
+
+    has_many :comments
+    belongs_to :admin
 end

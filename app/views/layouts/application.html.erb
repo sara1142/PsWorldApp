@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Sunflower:500" rel="stylesheet">
 <body>
   <!-- Render navigation bar -->
   <%= render "layouts/navigation" %>
@@ -14,6 +15,8 @@
   <div class="container-fluid">
     <%= yield %>
   </div>
+
+
 
 </body>
 </html>

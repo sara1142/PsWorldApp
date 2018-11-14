@@ -1,0 +1,12 @@
+  <p>
+          <strong><%= comment.admin.email %>:</strong>
+          <%= comment.body %>
+        </p> 
+      
+      
+       <% if current_admin %>
+          <% if comment.admin.id == current_admin.id %>
+            <%= link_to "Delete", [comment.post, comment],data: {:confirm => "Are you sure?"}, method: :delete %>
+              <% end %>
+        <% end %>
+

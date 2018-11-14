@@ -15,3 +15,37 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+
+body{
+    //background-image: url("https://i.imgur.com/6bDGC8W.jpg")
+}
+
+div.field ,h2 ,{
+    text-align: center;
+    //color: white;
+
+}
+div.actions,{
+    text-align: center;
+    
+}
+div.control{
+    text-align: left;
+}
+
+a:hover { 
+    background-color: #1565c0;
+    color: white;
+    
+}
+iframe {
+   margin: 10%;
+  
+}
+
+h1{
+    text-align: center;
+    color: #1565c0;
+ font-family: 'Sunflower', sans-serif;
+ 
+}
