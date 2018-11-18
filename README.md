@@ -29,7 +29,7 @@ Now migrate your database.
 
 We need to load ckeditor, go to app/assets/javascripts/application.js and the line below just above the tree line.
 
-```ruby //= require ckeditor/init```
+```//= require ckeditor/init```
 
 Create a directory called ckeditor in app/assets/javascripts, then create a new file called config.js in the directory you just created. Paste in the code below:
 
